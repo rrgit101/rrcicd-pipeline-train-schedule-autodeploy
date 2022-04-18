@@ -14,7 +14,7 @@
       chdir: /var/lib/jenkins/jenkins_slave/workspace/Final_Project_Myproject2
 
   - name: create tag to image
-    command: docker tag myproject:CICD raj101/myproject2:CICD
+    command: docker tag myproject2:CICD raj101/myproject2:CICD
 
   - name: loginto docker
     command: docker login --username raj101 --password JunkPassw0rd@9876
