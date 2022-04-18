@@ -31,4 +31,5 @@
     
   - name: Do deployment to kuberetes Prod
     # command: kubectl apply -f https://raw.githubusercontent.com/devops-learner01012022/DevOps_ClassNotes/master/CICD%20pipeline/kubedeployment.yml
-    command: kubectl apply -f /opt/myproject2/kubedeployment.yml
+    # command: kubectl apply -f /opt/myproject2/kubedeployment.yml
+    command: kubectl apply -f https://github.com/rrgit101/rrcicd-pipeline-train-schedule-autodeploy/blob/main/train-schedule-kube.yml
