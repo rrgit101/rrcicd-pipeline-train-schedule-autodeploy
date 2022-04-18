@@ -10,7 +10,8 @@
   - name: create docker image using war file
     command: docker build -t myproject2:CICD .
     args:
-      chdir: /opt/myproject2
+      #chdir: /opt/myproject2
+      chdir: /var/lib/jenkins/jenkins_slave/workspace/Final_Project_Myproject2
 
   - name: create tag to image
     command: docker tag myproject:CICD raj101/myproject2:CICD
