@@ -33,7 +33,8 @@ spec:
     spec:
       containers:
       - name: train-schedule
-        image: $DOCKER_IMAGE_NAME:$BUILD_NUMBER
+        #image: $DOCKER_IMAGE_NAME:$BUILD_NUMBER
+        image: raj101/myproject2:CICD
         ports:
         - containerPort: 8080
         livenessProbe:
